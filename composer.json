@@ -12,8 +12,8 @@
   ],
   "require": {
     "php": ">=5.5",
-    "tecnickcom/tcpdf": "^6.2",
-    "zendframework/zendframework": "~2.5",
+    "tecnickcom/tcpdf": "6.2",
+    "zendframework/zendframework": "~2.5"
   },
   "autoload": {
     "psr-0": {
