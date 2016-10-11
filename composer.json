@@ -1,0 +1,26 @@
+{
+  "name": "vladmeh/zf2-tcpdf",
+  "type": "library",
+  "description": "A Zend Framework 2 module for incorporating TCPDF support.",
+  "keywords": ["pdf","tcpdf", "zf2"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "VladMeh",
+      "email": "vladmeh@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "tecnickcom/tcpdf": "^6.2",
+    "zendframework/zendframework": "~2.5",
+  },
+  "autoload": {
+    "psr-0": {
+      "TcPdf": "src/"
+    },
+    "classmap": [
+      "Module.php"
+    ]
+  }
+}
