@@ -10,32 +10,34 @@ A Zend Framework 2 module for incorporating TCPDF support.
 
 Installation of TCPDFModule uses PHP Composer. For more information about PHP Composer, please visit the official [PHP Composer site](http://getcomposer.org/).
 
+#### Installation steps
+
 ```php composer.phar require vladmeh/zf2-tcpdf:dev-master```
 
 or
 
-#### Installation steps
     
 1. ```cd my/project/directory```
 
-create a composer.json file with following contents:
+2. create a composer.json file with following contents:
 
-```
- {
-     "require": {
-         "vladmeh/zf2-tcpdf": "dev-master"
+    ```
+     {
+         "require": {
+             "vladmeh/zf2-tcpdf": "dev-master"
+         }
      }
- }
-```
+    ```
 
-install PHP Composer via curl -s http://getcomposer.org/installer | php (on windows, download (http://getcomposer.org/installer) and execute it with PHP)
-run php composer.phar install
+3. install PHP Composer via curl -s http://getcomposer.org/installer | php (on windows, download (http://getcomposer.org/installer) and execute it with PHP)
 
-open my/project/directory/config/application.config.php and add the following key to your modules:
+4. run ```php composer.phar install```
 
- ```
- 'TCPDFModule',
- ```
+5. open my/project/directory/config/application.config.php and add the following key to your modules:
+
+     ```
+     'TCPDFModule',
+     ```
     
 #### Example usage
 
