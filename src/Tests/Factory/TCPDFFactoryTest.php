@@ -8,10 +8,10 @@ class TCPDFFactoryTest extends \PHPUnit_Framework_TestCase
     private $factory;
     public function setUp()
     {
-        $this->factory = new \TCPDFModule\Factory\TCPDFFactory();
+        $this->factory = new TCPDFFactory();
     }
     public function test_it_is_initializable()
     {
-        self::assertInstanceOf('TCPDFModule\Factory\TCPDFFactory', $this->factory);
+        self::assertInstanceOf(TCPDFFactory::class, $this->factory);
     }
 }
