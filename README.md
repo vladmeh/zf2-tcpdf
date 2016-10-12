@@ -2,6 +2,8 @@
 
 A Zend Framework 2 module for incorporating TCPDF support.
 
+[![Build Status](https://travis-ci.org/vladmeh/zf2-tcpdf.svg?branch=master)](https://travis-ci.org/vladmeh/zf2-tcpdf)
+
 ## Requirements
 
 * Zend Faramework 2
