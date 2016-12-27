@@ -48,7 +48,7 @@ or
 
 > Side note: use of getServiceLocator() in the controller is deprecated since in ZF3. Make sure you create your controller via a factory and inject the TCPDF object in the constructor. 
 > [Migration Guide](http://zendframework.github.io/zend-servicemanager/migration/#factories)
-> [ZF3 to use the new version](https://github.com/vladmeh/zf3-tcpdf)
+> ([ZF3 to use the new version](https://github.com/vladmeh/zf3-tcpdf))
 
 ```php
 // module config: module\Application\config\module.config.php
