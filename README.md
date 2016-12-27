@@ -6,7 +6,7 @@ A Zend Framework 2 module for incorporating TCPDF support.
 
 ## Requirements
 
-* Zend Faramework 2
+* Zend Faramework 2 (version 2.5 and later)
 
 ## Installation
 
